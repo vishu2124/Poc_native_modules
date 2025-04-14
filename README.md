@@ -1,14 +1,24 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Native Screen POC
 
-# Getting Started
+This Proof of Concept (POC) demonstrates how to launch native screens from JavaScript code within a React Native application using native modules.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Project Goal
+
+The primary objective of this POC is to showcase the integration between React Native's JavaScript layer and platform-specific native code, enabling the triggering of native screen transitions from JavaScript calls.
+
+## Getting Started
+
+> **Note**: Ensure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+
+### Prerequisites
+
+* Node.js (LTS recommended)
+* npm or Yarn
+* React Native development environment configured for Android and/or iOS
 
 ## Step 1: Start Metro
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
-
-To start the Metro dev server, run the following command from the root of your React Native project:
+Metro is the JavaScript bundler used by React Native. Start the Metro development server by running the following command from the root of your React Native project:
 
 ```sh
 # Using npm
@@ -16,7 +26,6 @@ npm start
 
 # OR using Yarn
 yarn start
-```
 
 ## Step 2: Build and run your app
 
